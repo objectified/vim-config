@@ -1,0 +1,1 @@
+My vim configuration. Requires vim 7 because of buffer switch hooks.
