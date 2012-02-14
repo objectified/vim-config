@@ -11,6 +11,6 @@ Requirements
 Installation
 ------------
 Using this configuration is as simple as
-```bash
+```
 cd && git clone git://github.com/objectified/vim-config.git .vim && ln -s .vim/.vimrc .
 ```
