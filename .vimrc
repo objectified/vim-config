@@ -45,3 +45,7 @@ augroup END
 " file type plugin
 filetype plugin on
 set ofu=syntaxcomplete#Complete
+
+" reselect visual block after indent/outdent
+vnoremap < <gv
+vnoremap > >gv
