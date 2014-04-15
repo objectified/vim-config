@@ -35,8 +35,6 @@ map <C-n><C-t> :NERDTreeToggle<CR>
 set laststatus=2
 let g:buftabs_in_statusline=1
 
-set keywordprg=phpman.sh
-
 " Wiki text plugin
 augroup filetypedetect
 au BufNewFile,BufRead *.wiki setf Wikipedia
@@ -49,3 +47,5 @@ set ofu=syntaxcomplete#Complete
 " reselect visual block after indent/outdent
 vnoremap < <gv
 vnoremap > >gv
+
+let g:vim_markdown_folding_disabled=1
